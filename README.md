@@ -29,7 +29,8 @@ The code generates a 3D scene using just vertex data, and produces a mockup of s
 ## Building
 A pre-compiled x64 version is available on the Github page.
 If you want to compile yourself, please follow the below steps:
-- Pre-Steps
+
+### Pre-Steps
 1. Create 'Includes' and 'Libs' directory on machine.
 2. Download GLFW from: https://www.glfw.org/download.html and place the includes files in your 'Includes' and 'Libs' directories
 3. Download GLAD from: https://glad.dav1d.de/ (Set language to C++, API to 3.3, Profile to Core, and tick 'Generate a Loader', then click Generate)
@@ -37,6 +38,7 @@ If you want to compile yourself, please follow the below steps:
 4. Download GLEW from: https://glew.sourceforge.net/index.html and place it in your 'Libs' folder.
 5. Download GLM from: https://glm.g-truc.net/0.9.8/index.html and place it in your 'Includes' folder.
 
+### Build Steps
 1. Clone this repository
     ```bash
     git clone https://github.com/Christopher-Roelle/3DScene-Enhancement.git
